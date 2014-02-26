@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'side-nav-icon';
+	src:url('fonts/side-nav-icon.eot?-hu5p9k');
+	src:url('fonts/side-nav-icon.eot?#iefix-hu5p9k') format('embedded-opentype'),
+		url('fonts/side-nav-icon.woff?-hu5p9k') format('woff'),
+		url('fonts/side-nav-icon.ttf?-hu5p9k') format('truetype'),
+		url('fonts/side-nav-icon.svg?-hu5p9k#side-nav-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'side-nav-icon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+	content: "\e600";
+}

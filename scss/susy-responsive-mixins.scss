@@ -1,0 +1,111 @@
+// You define $first-breakpoint and $second-breakpoint values
+// And then include these modules into the styles for the elements
+// that will make up the span of span of a susy-grid column
+
+// Four column mixins
+
+@mixin four-two-one-columns {
+  @include span-columns(3,12);
+  &:nth-of-type(4n+4) { @include omega; }
+
+  @media screen and (min-width: $second-breakpoint) and (max-width: $first-breakpoint) {
+    @include span-columns(6,12);
+    &:nth-of-type(4n+4) { @include remove-omega; }
+    &:nth-of-type(2n+2) { @include omega; }
+  }
+
+  @media screen and (max-width: $second-breakpoint) {
+    @include span-columns(12,12);
+    &:nth-of-type(2n+2) { @include remove-omega; }
+  }
+}
+
+@mixin four-three-two-one-columns {
+  @include span-columns(3,12);
+  &:nth-of-type(4n+4) { @include omega; }
+
+  @media screen and (min-width: $first-breakpoint) and (max-width: 1100px) {
+    @include span-columns(4,12);
+    &:nth-of-type(4n+4) { @include remove-omega; }
+    &:nth-of-type(3n+3) { @include omega; }
+  }
+
+  @media screen and (min-width: $second-breakpoint) and (max-width: $first-breakpoint) {
+    @include span-columns(6,12);
+    &:nth-of-type(3n+3) { @include remove-omega; }
+    &:nth-of-type(2n+2) { @include omega; }
+  }
+
+  @media screen and (max-width: $second-breakpoint) {
+    @include span-columns(12,12);
+    &:nth-of-type(2n+2) { @include remove-omega; }
+  }
+}
+
+@mixin four-three-two-columns {
+  @include span-columns(3,12);
+  &:nth-of-type(4n+4) { @include omega; }
+
+  @media screen and (min-width: $second-breakpoint) and (max-width: $first-breakpoint) {
+    @include span-columns(4,12);
+    &:nth-of-type(4n+4) { @include remove-omega; }
+    &:nth-of-type(3n+3) { @include omega; }
+  }
+
+  @media screen and (max-width: $second-breakpoint) {
+    @include span-columns(6,12);
+    &:nth-of-type(3n+3) { @include remove-omega; }
+    &:nth-of-type(2n+2) { @include omega; }
+  }
+}
+
+// Three column mixins
+
+@mixin three-two-one-columns {
+  @include span-columns(4,12);
+  &:nth-of-type(3n+3) { @include omega; }
+
+  @media screen and (min-width: $second-breakpoint) and (max-width: $first-breakpoint) {
+    @include span-columns(6,12);
+    &:nth-of-type(3n+3) { @include remove-omega; }
+    &:nth-of-type(2n+2) { @include omega; }
+  }
+
+  @media screen and (max-width: $second-breakpoint) {
+    @include span-columns(12,12);
+    &:nth-of-type(2n+2) { @include remove-omega; }
+  }
+}
+
+@mixin three-two-one-columns-centered {
+  @include span-columns(4,12);
+  &:nth-of-type(3n+3) { @include omega; }
+
+  @media screen and (min-width: $second-breakpoint) and (max-width: $first-breakpoint) {
+    @include span-columns(6,12);
+    &:first-child {
+      text-align: center;
+      @include span-columns(12,12);
+    }
+    &:nth-of-type(3n+3) { @include remove-omega; }
+    &:nth-of-type(2n+3) { @include omega; }
+  }
+
+  @media screen and (max-width: $second-breakpoint) {
+    @include span-columns(12,12);
+    &:first-child { text-align: center; }
+    &:nth-of-type(2n+3) { @include remove-omega; }
+  }
+}
+
+// Two column mixins
+
+@mixin two-one-columns {
+  @include span-columns(6,12);
+  &:nth-of-type(even) { @include omega; }
+
+  @media screen and (max-width: $first-breakpoint) {
+    @include span-columns(12,12);
+    &:nth-of-type(even) { @include remove-omega; }
+  }
+}
