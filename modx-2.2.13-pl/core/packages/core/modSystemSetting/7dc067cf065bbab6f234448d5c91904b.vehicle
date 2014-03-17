@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'c6c206728f481e8fc717b6c3b4ebbef6',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '7dc067cf065bbab6f234448d5c91904b',
+  'native_key' => 'search_default',
+  'object' => '{"key":"search_default","value":"1","xtype":"combo-boolean","namespace":"core","area":"site","editedon":null}',
+);

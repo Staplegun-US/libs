@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '48032459629b064e135a061cb2fced49',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'be5bfcb870e4c3d88a4178d9d5e6b7a2',
+  'native_key' => 'allow_forward_across_contexts',
+  'object' => '{"key":"allow_forward_across_contexts","value":false,"xtype":"combo-boolean","namespace":"core","area":"system","editedon":null}',
+);

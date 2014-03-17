@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '55db10df9c1674b1868e28299951e0e0',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '67b0e7a108e97ba7444c07661fa84d64',
+  'native_key' => 'manager_js_zlib_output_compression',
+  'object' => '{"key":"manager_js_zlib_output_compression","value":0,"xtype":"combo-boolean","namespace":"core","area":"manager","editedon":null}',
+);

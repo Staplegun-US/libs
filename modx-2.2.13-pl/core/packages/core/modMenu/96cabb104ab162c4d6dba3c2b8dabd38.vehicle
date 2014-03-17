@@ -1,0 +1,75 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'Children' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 
+          array (
+            0 => 'namespace',
+            1 => 'controller',
+          ),
+        ),
+      ),
+    ),
+    'Children' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 'text',
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'Action' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 
+          array (
+            0 => 'namespace',
+            1 => 'controller',
+          ),
+          'related_objects' => true,
+          'related_object_attributes' => 
+          array (
+            'Children' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '415100c787084ea13b452db0861e9b1a',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '96cabb104ab162c4d6dba3c2b8dabd38',
+  'native_key' => 'components',
+  'object' => '{"text":"components","parent":"","action":0,"description":"","icon":"images\\/icons\\/plugin.gif","menuindex":2,"params":"","handler":"","permissions":"components"}',
+);

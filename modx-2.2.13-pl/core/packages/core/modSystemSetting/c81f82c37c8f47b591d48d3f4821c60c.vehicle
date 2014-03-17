@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1264118f45d317ecbd82c6ff6927e582',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'c81f82c37c8f47b591d48d3f4821c60c',
+  'native_key' => 'phpthumb_cache_maxsize',
+  'object' => '{"key":"phpthumb_cache_maxsize","value":100,"xtype":"textfield","namespace":"core","area":"phpthumb","editedon":null}',
+);

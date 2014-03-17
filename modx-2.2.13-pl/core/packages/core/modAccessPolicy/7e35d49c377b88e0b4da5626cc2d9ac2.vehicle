@@ -1,0 +1,16 @@
+<?php return array (
+  'preserve_keys' => false,
+  'unique_key' => 
+  array (
+    0 => 'name',
+  ),
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'df4b3d6d51c0af279c54493434d6a75b',
+  'package' => 'modx',
+  'class' => 'modAccessPolicy',
+  'signature' => '7e35d49c377b88e0b4da5626cc2d9ac2',
+  'native_key' => 1,
+  'object' => '{"id":1,"name":"Resource","description":"MODX Resource Policy with all attributes.","parent":0,"template":0,"class":"","data":"{\\"add_children\\":true,\\"create\\":true,\\"copy\\":true,\\"delete\\":true,\\"list\\":true,\\"load\\":true,\\"move\\":true,\\"publish\\":true,\\"remove\\":true,\\"save\\":true,\\"steal_lock\\":true,\\"undelete\\":true,\\"unpublish\\":true,\\"view\\":true}","lexicon":"permissions"}',
+);

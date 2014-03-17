@@ -1,0 +1,153 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Children' => 
+    array (
+      '0cd9869d0f11f0faf74923f305902bad' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            '431e4f28b90d77f62378dd27f2378179' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":100,"namespace":"core","controller":"system\\/dashboards","haslayout":1,"lang_topics":"about","assets":"","help_url":"Dashboards"}',
+              'guid' => 'eb8aa555ba56fa61b54c2729a81df282',
+              'native_key' => 100,
+              'signature' => '3bb12532c80bc259be10d6406242be43',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"dashboards","parent":"reports","action":100,"description":"dashboards_desc","icon":"images\\/icons\\/information.png","menuindex":0,"params":"","handler":"","permissions":"dashboards"}',
+        'guid' => 'a0aba91f9e6353a33e85e14bfdb1a30f',
+        'native_key' => 'dashboards',
+        'signature' => '2da20d7f90c923d7d1c88a50d1c9be15',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'Children' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 
+          array (
+            0 => 'namespace',
+            1 => 'controller',
+          ),
+        ),
+      ),
+    ),
+    'Children' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 'text',
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'Action' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 
+          array (
+            0 => 'namespace',
+            1 => 'controller',
+          ),
+          'related_objects' => true,
+          'related_object_attributes' => 
+          array (
+            'Children' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7afa88587da20751ae8bc4d3c8590a7c',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'fba82a8046c0fc9bdce1814f2d1c554c',
+  'native_key' => 'dashboard',
+  'object' => '{"text":"dashboard","parent":"","action":0,"description":"","icon":"images\\/misc\\/logo_tbar.gif","menuindex":0,"params":"","handler":"MODx.loadPage(\\"\\"); return false;","permissions":"home"}',
+);

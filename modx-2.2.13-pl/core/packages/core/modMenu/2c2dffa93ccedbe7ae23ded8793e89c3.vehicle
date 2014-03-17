@@ -1,0 +1,445 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Children' => 
+    array (
+      '15e583f799c3895f113816f3d6920e65' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            '31cd4006c51428c810db8644f3931293' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":42,"namespace":"core","controller":"resource\\/site_schedule","haslayout":1,"lang_topics":"resource","assets":"","help_url":""}',
+              'guid' => 'f31ed09475df0f95b658da9232a12e5f',
+              'native_key' => 42,
+              'signature' => '9345d7c8a9b14b7416b9f211264767aa',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"site_schedule","parent":"reports","action":42,"description":"site_schedule_desc","icon":"images\\/icons\\/cal.gif","menuindex":0,"params":"","handler":"","permissions":"view_document"}',
+        'guid' => '464655b24f8b7ad6eae5f6db57165020',
+        'native_key' => 'site_schedule',
+        'signature' => 'bc78936e7bc2487ba8876e7cc24fbf93',
+      ),
+      '1531c539661a337818e0f51209fcf712' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            '69a91bdd5f4b29d8a9e9d9e445c1e5d5' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":14,"namespace":"core","controller":"system\\/logs\\/index","haslayout":1,"lang_topics":"manager_log","assets":"","help_url":""}',
+              'guid' => '7360acbbf2db125568e5119d1c8ec928',
+              'native_key' => 14,
+              'signature' => '7754036392b50282560134effb097a34',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"view_logging","parent":"reports","action":14,"description":"view_logging_desc","icon":"","menuindex":1,"params":"","handler":"","permissions":"logs"}',
+        'guid' => 'a14425b087252807e90917b29906b469',
+        'native_key' => 'view_logging',
+        'signature' => '786f51097681b9db96b591a0d6ab607b',
+      ),
+      'e6ec205a2eff3aba078ed870e301db86' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            'e2d4dc15903c891db29b11d5f8ec618f' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":57,"namespace":"core","controller":"system\\/event","haslayout":1,"lang_topics":"system_events","assets":"","help_url":""}',
+              'guid' => '89cff09b39cade7896c53a4b6b862eec',
+              'native_key' => 57,
+              'signature' => 'c8258a4d28a53e1f41839d03ed99085a',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"eventlog_viewer","parent":"reports","action":57,"description":"eventlog_viewer_desc","icon":"images\\/icons\\/comment.gif","menuindex":2,"params":"","handler":"","permissions":"view_eventlog"}',
+        'guid' => '9d02d7e0334481a9090247799f37f387',
+        'native_key' => 'eventlog_viewer',
+        'signature' => 'f5a8bd7c51a617dcfb9794252ec4cabe',
+      ),
+      'ca5705a55c42efa9dc26147477c27dff' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            '71eca1e052f20b95785d28b746a720dd' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":4,"namespace":"core","controller":"system\\/info","haslayout":1,"lang_topics":"system_info","assets":"","help_url":""}',
+              'guid' => '651e88533582fbcbd0439c00222159d3',
+              'native_key' => 4,
+              'signature' => '356615759cff593dff5babfb090200e1',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"view_sysinfo","parent":"reports","action":4,"description":"view_sysinfo_desc","icon":"images\\/icons\\/logging.gif","menuindex":3,"params":"","handler":"","permissions":"view_sysinfo"}',
+        'guid' => '88a31c2646ac539301f5e393f26fb2a5',
+        'native_key' => 'view_sysinfo',
+        'signature' => '799c6ac201d54278ac99549cae973aaa',
+      ),
+      '52756e30bd57a12ca64114ea98c678f5' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            'c6990815f341b5f571294aa4b65b524e' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":63,"namespace":"core","controller":"help","haslayout":1,"lang_topics":"about","assets":"","help_url":""}',
+              'guid' => 'cf1d00b615664819eb5eb2b529a4066f',
+              'native_key' => 63,
+              'signature' => 'c86e8985d895b062eda988cf927877d3',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"about","parent":"reports","action":63,"description":"about_desc","icon":"images\\/icons\\/information.png","menuindex":4,"params":"","handler":"","permissions":"about"}',
+        'guid' => 'f570f0612eb5bc11e493fb21ba9f718f',
+        'native_key' => 'about',
+        'signature' => '3b2b85554ef78e61dfe12b20fc461a43',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'Children' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 
+          array (
+            0 => 'namespace',
+            1 => 'controller',
+          ),
+        ),
+      ),
+    ),
+    'Children' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 'text',
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'Action' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 
+          array (
+            0 => 'namespace',
+            1 => 'controller',
+          ),
+          'related_objects' => true,
+          'related_object_attributes' => 
+          array (
+            'Children' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a028acb1fbd302247df4e9f5952f0100',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '2c2dffa93ccedbe7ae23ded8793e89c3',
+  'native_key' => 'reports',
+  'object' => '{"text":"reports","parent":"","action":0,"description":"","icon":"images\\/icons\\/menu_settings16.gif","menuindex":5,"params":"","handler":"","permissions":"menu_reports"}',
+);

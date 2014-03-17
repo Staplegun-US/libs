@@ -1,0 +1,17 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 
+  array (
+    0 => 'namespace',
+    1 => 'controller',
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f46b5cbfc9e38991e6e822da98ec447b',
+  'package' => 'modx',
+  'class' => 'modAction',
+  'signature' => '2a855e773bebdbfe58747a48fcd4e517',
+  'native_key' => 11,
+  'object' => '{"id":11,"namespace":"core","controller":"element\\/chunk","haslayout":1,"lang_topics":"chunk,category,propertyset,element","assets":"","help_url":"Chunks"}',
+);

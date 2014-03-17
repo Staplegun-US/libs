@@ -1,0 +1,450 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Children' => 
+    array (
+      '796b42ad1780d6a21793d4394ba82caa' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            '2bc4f7868291a13a82cfdd265954c586' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":53,"namespace":"core","controller":"security\\/user","haslayout":1,"lang_topics":"user","assets":"","help_url":"Users"}',
+              'guid' => 'dafdff2321f9bbcd9ec356be7e13b178',
+              'native_key' => 53,
+              'signature' => '5ad2b193111a1bc79f84295867feee46',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"user_management","parent":"security","action":53,"description":"user_management_desc","icon":"images\\/icons\\/user.gif","menuindex":0,"params":"","handler":"","permissions":"view_user"}',
+        'guid' => '1a32fe7299a93ad28a41f13178c722fe',
+        'native_key' => 'user_management',
+        'signature' => '7b2a8bf362e9dbb81a65f3bc6c03a689',
+      ),
+      '27986595a96d850aefadc673905f8fd5' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            '602ffe87e0d3ecf493b20daa72e6683c' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":66,"namespace":"core","controller":"security\\/permission","haslayout":1,"lang_topics":"user,access,policy","assets":"","help_url":"Security"}',
+              'guid' => '2da17e0cb9876a60710553fa32780a8c',
+              'native_key' => 66,
+              'signature' => '7238b6f63526bed8b5955c8a5cbe2a07',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"user_group_management","parent":"security","action":66,"description":"user_group_management_desc","icon":"images\\/icons\\/mnu_users.gif","menuindex":1,"params":"","handler":"","permissions":"access_permissions"}',
+        'guid' => '342258bdb58a3d9b1bc08b5f00ad09d9',
+        'native_key' => 'user_group_management',
+        'signature' => '406679cedc8086b9e4431c73f8d4b332',
+      ),
+      'aa2a41c2359ae787c207fac1465549e5' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            'ca70a75180e8d8adbc7465bf4e3bd104' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":37,"namespace":"core","controller":"security\\/resourcegroup\\/index","haslayout":1,"lang_topics":"resource,user,access","assets":"","help_url":"Resource+Groups"}',
+              'guid' => 'b2aabf0b142eda3b893b2c8f4187094f',
+              'native_key' => 37,
+              'signature' => 'd42dafd801a21da556d10383fd303b90',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"resource_groups","parent":"security","action":37,"description":"resource_groups_desc","icon":"","menuindex":2,"params":"","handler":"","permissions":"access_permissions"}',
+        'guid' => 'eb6da24f3c46592cb5737483406e9e81',
+        'native_key' => 'resource_groups',
+        'signature' => 'bc7e5bfa3410b3685d75fa165a5808f9',
+      ),
+      'f508fe69edbe6bc91d4faf49a508de30' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => 
+        array (
+          'Action' => 
+          array (
+            '33e31efdb3c625283fa075b2f575da85' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+              'related_objects' => true,
+              'related_object_attributes' => 
+              array (
+                'Children' => 
+                array (
+                  'preserve_keys' => false,
+                  'update_object' => true,
+                  'unique_key' => 
+                  array (
+                    0 => 'namespace',
+                    1 => 'controller',
+                  ),
+                ),
+              ),
+              'class' => 'modAction',
+              'object' => '{"id":83,"namespace":"core","controller":"security\\/forms","haslayout":1,"lang_topics":"formcustomization,user,access,policy","assets":"","help_url":"Customizing+The+Manager"}',
+              'guid' => '54695574616b51fc062305952c66e766',
+              'native_key' => 83,
+              'signature' => '8b8e67b58178b737a46234bc771f1da7',
+            ),
+          ),
+        ),
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"form_customization","parent":"security","action":83,"description":"form_customization_desc","icon":"images\\/misc\\/logo_tbar.gif","menuindex":3,"params":"","handler":"","permissions":"customize_forms"}',
+        'guid' => '65475f7e646de9143bc5cbcdb8366a19',
+        'native_key' => 'form_customization',
+        'signature' => '6d6c89488b2666c3ebac54174ac01578',
+      ),
+      '758fe31ca6f1bed905aaef3315a08cd7' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => true,
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"flush_access","parent":"security","action":0,"description":"flush_access_desc","icon":"images\\/icons\\/unzip.gif","menuindex":4,"params":"","handler":"MODx.msg.confirm({\\n    title: _(\'flush_access\')\\n    ,text: _(\'flush_access_confirm\')\\n    ,url: MODx.config.connectors_url+\'security\\/access\\/index.php\'\\n    ,params: {\\n        action: \'flush\'\\n    }\\n    ,listeners: {\\n        \'success\': {fn:function() { location.href = \'.\\/\'; },scope:this}\\n    }\\n});","permissions":"access_permissions"}',
+        'guid' => '13c8c4cb567230021e790a8d24b18cdc',
+        'native_key' => 'flush_access',
+        'signature' => '645e534f2141a33b15c8f7bf080f2f82',
+      ),
+      '8c4ddbbb7c30545985b50bc87c1ea507' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => true,
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"flush_sessions","parent":"security","action":0,"description":"flush_sessions_desc","icon":"images\\/icons\\/unzip.gif","menuindex":5,"params":"","handler":"MODx.msg.confirm({\\n    title: _(\'flush_sessions\')\\n    ,text: _(\'flush_sessions_confirm\')\\n    ,url: MODx.config.connectors_url+\'security\\/flush.php\'\\n    ,params: {\\n        action: \'flush\'\\n    }\\n    ,listeners: {\\n        \'success\': {fn:function() { location.href = \'.\\/\'; },scope:this}\\n    }\\n});","permissions":"flush_sessions"}',
+        'guid' => '56f045226bbd4f572573bfc7595cbda1',
+        'native_key' => 'flush_sessions',
+        'signature' => 'a71eed89005c1f8d70a397a38977891f',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'Children' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 
+          array (
+            0 => 'namespace',
+            1 => 'controller',
+          ),
+        ),
+      ),
+    ),
+    'Children' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 'text',
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'Action' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 
+          array (
+            0 => 'namespace',
+            1 => 'controller',
+          ),
+          'related_objects' => true,
+          'related_object_attributes' => 
+          array (
+            'Children' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '120377ac64d265158f87f1f6367c2c68',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '66d1d2dae1556f3b156b6e830dfb7085',
+  'native_key' => 'security',
+  'object' => '{"text":"security","parent":"","action":0,"description":"","icon":"images\\/icons\\/lock.gif","menuindex":3,"params":"","handler":"","permissions":"menu_security"}',
+);

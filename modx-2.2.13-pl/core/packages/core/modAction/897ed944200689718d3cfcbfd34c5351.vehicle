@@ -1,0 +1,17 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 
+  array (
+    0 => 'namespace',
+    1 => 'controller',
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0762ca0713dbeb44e75c486fb77ffda4',
+  'package' => 'modx',
+  'class' => 'modAction',
+  'signature' => '897ed944200689718d3cfcbfd34c5351',
+  'native_key' => 85,
+  'object' => '{"id":85,"namespace":"core","controller":"security\\/forms\\/set\\/update","haslayout":1,"lang_topics":"formcustomization,user,access,policy","assets":"","help_url":"Form+Customization+Sets"}',
+);

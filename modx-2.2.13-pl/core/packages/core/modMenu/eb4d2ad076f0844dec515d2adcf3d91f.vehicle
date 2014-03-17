@@ -1,0 +1,236 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Children' => 
+    array (
+      '539c7efb6c53343a9cd87114a54c8fd5' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => true,
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"forums","parent":"support","action":0,"description":"forums_desc","icon":"images\\/icons\\/sysinfo.gif","menuindex":0,"params":"","handler":"window.open(\\"http:\\/\\/modx.com\\/forums\\");","permissions":""}',
+        'guid' => '4bb890b6509fed4bcb9b99f4d483a8dd',
+        'native_key' => 'forums',
+        'signature' => 'aa9f0ac0aaa0015c7d119897211017f5',
+      ),
+      '106f725f8b6b8c954716b3f1f83484dd' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => true,
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"wiki","parent":"support","action":0,"description":"wiki_desc","icon":"images\\/icons\\/sysinfo.gif","menuindex":1,"params":"","handler":"window.open(\\"http:\\/\\/rtfm.modx.com\\/\\");","permissions":""}',
+        'guid' => 'a8a917e80605e5e6c170d72290a69a11',
+        'native_key' => 'wiki',
+        'signature' => '15f8166fa7ed8dd095bc6d55300a5f89',
+      ),
+      '9105c3944f807dde5b810e2ae3837e90' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => true,
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"jira","parent":"support","action":0,"description":"jira_desc","icon":"images\\/icons\\/sysinfo.gif","menuindex":2,"params":"","handler":"window.open(\\"http:\\/\\/bugs.modx.com\\/projects\\/revo\\/issues\\");","permissions":""}',
+        'guid' => '854a178e40f90d273d0613742f6d6df3',
+        'native_key' => 'jira',
+        'signature' => '7148a016f7e49ee4613f27a62c3154d9',
+      ),
+      'bafea7437e393c6bc86f143b92992697' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => true,
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+            'related_objects' => true,
+            'related_object_attributes' => 
+            array (
+              'Children' => 
+              array (
+                'preserve_keys' => false,
+                'update_object' => true,
+                'unique_key' => 
+                array (
+                  0 => 'namespace',
+                  1 => 'controller',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'class' => 'modMenu',
+        'object' => '{"text":"api_docs","parent":"support","action":0,"description":"api_docs_desc","icon":"images\\/icons\\/sysinfo.gif","menuindex":3,"params":"","handler":"window.open(\\"http:\\/\\/api.modx.com\\/revolution\\/2.2\\/\\");","permissions":""}',
+        'guid' => 'f0f6a2fa8c77dd781dd1f729327e43df',
+        'native_key' => 'api_docs',
+        'signature' => 'ec0e6a7bdb9161408f92d42a9b01611d',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'Children' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 
+          array (
+            0 => 'namespace',
+            1 => 'controller',
+          ),
+        ),
+      ),
+    ),
+    'Children' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 'text',
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'Action' => 
+        array (
+          'preserve_keys' => false,
+          'update_object' => true,
+          'unique_key' => 
+          array (
+            0 => 'namespace',
+            1 => 'controller',
+          ),
+          'related_objects' => true,
+          'related_object_attributes' => 
+          array (
+            'Children' => 
+            array (
+              'preserve_keys' => false,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'namespace',
+                1 => 'controller',
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4f1bdd15b6ed419c89b11c5cababbe2a',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => 'eb4d2ad076f0844dec515d2adcf3d91f',
+  'native_key' => 'support',
+  'object' => '{"text":"support","parent":"","action":0,"description":"support_desc","icon":"images\\/icons\\/sysinfo.gif","menuindex":8,"params":"","handler":"","permissions":"menu_support"}',
+);
