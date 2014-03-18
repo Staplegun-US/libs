@@ -1,0 +1,3 @@
+[submodule "modx-evo2rev"]
+	path = modx-evo2rev
+	url = https://github.com/revitalagency/modx-evo2rev.git
