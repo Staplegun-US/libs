@@ -1,0 +1,55 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"core\\/modContext\\/32bedbcb4c4ced540222f9dc0ae626fe\\/0\\/","target":"return MODX_MANAGER_PATH;","name":"assets"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"core\\/modContext\\/32bedbcb4c4ced540222f9dc0ae626fe\\/1\\/","target":"return MODX_MANAGER_PATH;","name":"controllers"}',
+    ),
+    2 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"core\\/modContext\\/32bedbcb4c4ced540222f9dc0ae626fe\\/2\\/","target":"return MODX_MANAGER_PATH;","name":"templates"}',
+    ),
+    3 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"core\\/modContext\\/32bedbcb4c4ced540222f9dc0ae626fe\\/3\\/","target":"return MODX_MANAGER_PATH;","name":"min"}',
+    ),
+    4 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"core\\/modContext\\/32bedbcb4c4ced540222f9dc0ae626fe\\/4\\/","target":"return MODX_MANAGER_PATH;","name":"ht.access"}',
+    ),
+    5 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"core\\/modContext\\/32bedbcb4c4ced540222f9dc0ae626fe\\/5\\/","target":"return MODX_MANAGER_PATH;","name":"cache.manifest.php"}',
+    ),
+    6 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"core\\/modContext\\/32bedbcb4c4ced540222f9dc0ae626fe\\/6\\/","target":"return MODX_MANAGER_PATH;","name":"index.php"}',
+    ),
+    7 => 
+    array (
+      'type' => 'php',
+      'body' => '{"type":"php","source":"core\\/modContext\\/32bedbcb4c4ced540222f9dc0ae626fe.resolve.core.resolver","target":"return MODX_MANAGER_PATH . \'config.core.php\';","name":"resolve.core"}',
+    ),
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'baa37f4860fab95a0721769657d259ef',
+  'package' => 'modx',
+  'class' => 'modContext',
+  'signature' => '32bedbcb4c4ced540222f9dc0ae626fe',
+  'native_key' => 'mgr',
+  'object' => '{"key":"mgr","description":"The default manager or administration context for content management activity.","rank":0}',
+);

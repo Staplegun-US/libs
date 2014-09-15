@@ -1,0 +1,150 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M716.749 276.48l0.051 471.040-409.6-235.52z"
+				],
+				"tags": [
+					"arrow-left",
+					"left",
+					"triangle",
+					"previous"
+				],
+				"grid": 20,
+				"matchesSearch": true
+			},
+			"properties": {
+				"id": 201,
+				"order": 1,
+				"prevSize": 20,
+				"code": 58880,
+				"name": "arrow-left",
+				"ligatures": ""
+			},
+			"setIdx": 3,
+			"iconIdx": 201
+		},
+		{
+			"icon": {
+				"paths": [
+					"M747.52 307.251l-471.040-0.051 235.52 409.6z"
+				],
+				"tags": [
+					"arrow-down",
+					"triangle",
+					"down",
+					"bottom"
+				],
+				"grid": 20,
+				"matchesSearch": true
+			},
+			"properties": {
+				"id": 202,
+				"order": 2,
+				"prevSize": 20,
+				"code": 58881,
+				"name": "arrow-down",
+				"ligatures": ""
+			},
+			"setIdx": 3,
+			"iconIdx": 202
+		},
+		{
+			"icon": {
+				"paths": [
+					"M276.48 716.8h471.040l-235.571-409.6z"
+				],
+				"tags": [
+					"arrow-up",
+					"triangle",
+					"up",
+					"top"
+				],
+				"grid": 20,
+				"matchesSearch": true
+			},
+			"properties": {
+				"id": 203,
+				"order": 3,
+				"prevSize": 20,
+				"code": 58883,
+				"name": "arrow-up",
+				"ligatures": ""
+			},
+			"setIdx": 3,
+			"iconIdx": 203
+		},
+		{
+			"icon": {
+				"paths": [
+					"M307.251 276.48l-0.051 471.040 409.6-235.52z"
+				],
+				"tags": [
+					"arrow-right",
+					"triangle",
+					"right",
+					"next"
+				],
+				"grid": 20,
+				"matchesSearch": true
+			},
+			"properties": {
+				"id": 204,
+				"order": 4,
+				"prevSize": 20,
+				"code": 58884,
+				"name": "arrow-right",
+				"ligatures": ""
+			},
+			"setIdx": 3,
+			"iconIdx": 204
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "triangle-arrows"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "triangle-arrows",
+				"majorVersion": 1,
+				"minorVersion": 0
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false,
+			"autoHost": true,
+			"ie7": false
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"quickUsageToken": {
+			"UntitledProject1": "NmJjNjA2NDBhNjExODQ5ODNmOGUwMjFhOTIwMjAxNGMjMiMxMzk2Mjg0ODg4IyMj"
+		}
+	}
+}

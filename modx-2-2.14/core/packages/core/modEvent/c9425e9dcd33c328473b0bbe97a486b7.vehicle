@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '4893786b15c182cc94d3c89468efb5dc',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => 'c9425e9dcd33c328473b0bbe97a486b7',
+  'native_key' => 'OnPageUnauthorized',
+  'object' => '{"name":"OnPageUnauthorized","service":1,"groupname":"Security"}',
+);

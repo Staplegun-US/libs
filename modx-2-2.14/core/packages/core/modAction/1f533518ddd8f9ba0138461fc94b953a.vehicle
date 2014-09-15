@@ -1,0 +1,17 @@
+<?php return array (
+  'preserve_keys' => false,
+  'update_object' => true,
+  'unique_key' => 
+  array (
+    0 => 'namespace',
+    1 => 'controller',
+  ),
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '95f6feae58e7a4e357c074d7a6869a4a',
+  'package' => 'modx',
+  'class' => 'modAction',
+  'signature' => '1f533518ddd8f9ba0138461fc94b953a',
+  'native_key' => 33,
+  'object' => '{"id":33,"namespace":"core","controller":"element\\/tv\\/create","haslayout":1,"lang_topics":"tv,tv_widget,propertyset,element","assets":"","help_url":"Template+Variables"}',
+);

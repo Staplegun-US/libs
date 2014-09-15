@@ -1,0 +1,30 @@
+<?php
+/**
+ * Namespace Dutch lexicon topic
+ *
+ * @language nl
+ * @package modx
+ * @subpackage lexicon
+ * 
+ * @author Bert Oost at OostDesign.nl <bert@oostdesign.nl>
+ */
+$_lang['namespace'] = 'Namespace';
+$_lang['namespace_create'] = 'Namespace toevoegen';
+$_lang['namespace_err_create'] = 'Er is een fout opgetreden bij het toevoegen van de namespace.';
+$_lang['namespace_err_nf'] = 'Namespace niet gevonden.';
+$_lang['namespace_err_nfs'] = 'Namespace niet gevonden, met naam: %s';
+$_lang['namespace_err_ns'] = 'Namespace niet gedefinïeerd.';
+$_lang['namespace_err_remove'] = 'Er is een fout opgetreden bij het verwijderen van de namespace.';
+$_lang['namespace_err_save'] = 'Er is een fout opgetreden bij het opslaan van de namespace.';
+$_lang['namespace_assets_path'] = 'Assets pad';
+$_lang['namespace_assets_path_desc'] = 'Specificeer een absoluut pad naar de assets van deze Namespace hier. Je mag placeholders als {assets_path} hier gebruiken. Voorbeeld: {assets_path}components/democomponent/';
+$_lang['namespace_name_desc'] = 'Specificeer een naam voor deze Namespace.';
+$_lang['namespace_path'] = 'Core pad';
+$_lang['namespace_path_desc'] = 'Specificeer een absoluut pad naar de core van deze Namespace hier. Je mag placeholders als {core_path} hier gebruiken. Voorbeeld: {core_path}components/democomponent/';
+$_lang['namespace_remove'] = 'Namespace verwijderen';
+$_lang['namespace_remove_confirm'] = 'Weet je zeker dat je de namespace en alle gerelateerde content wilt verwijderen?';
+$_lang['namespace_remove_multiple'] = 'Namespaces verwijderen';
+$_lang['namespace_remove_multiple_confirm'] = 'Weet je zeker dat je deze namespaces en alle gerelateerde content wilt verwijderen?';
+$_lang['namespace_update'] = 'Namespace aanpassen';
+$_lang['namespaces'] = 'Namespaces';
+$_lang['namespaces_desc'] = 'Namespaces zijn globale identificaties voor pakketten en componenten, registratie van hun vehicles, lexicon vermeldingen en alle documenten samen.';

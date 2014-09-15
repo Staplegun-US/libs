@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'cc6dbba4e77f0b65b09e39affaa553a2',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '4c61da4c95560468dac39b0bb54dbf07',
+  'native_key' => 'mail_charset',
+  'object' => '{"key":"mail_charset","value":"UTF-8","xtype":"modx-combo-charset","namespace":"core","area":"mail","editedon":null}',
+);

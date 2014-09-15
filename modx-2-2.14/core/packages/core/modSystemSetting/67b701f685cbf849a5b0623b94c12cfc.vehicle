@@ -1,0 +1,12 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => false,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'e1e7676854aa14d4e50bcea6291a2934',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '67b701f685cbf849a5b0623b94c12cfc',
+  'native_key' => 'manager_direction',
+  'object' => '{"key":"manager_direction","value":"ltr","xtype":"textfield","namespace":"core","area":"language","editedon":null}',
+);
